@@ -1,0 +1,18 @@
+{
+  "name": "node-web-scrape",
+  "version": "0.0.1",
+  "license": "BSD-2-Clause",
+  "description": "Pulls the ADS-B totals reported for today for a given station and posts them to twitter",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "author": "SynapseMX",
+  "dependencies": {
+    "cheerio": "latest",
+    "dotenv": "^8.0.0",
+    "express": "latest",
+    "request": "latest",
+    "twitter": "^1.7.1"
+  }
+}
