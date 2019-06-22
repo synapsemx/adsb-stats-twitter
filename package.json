@@ -5,7 +5,7 @@
   "description": "Pulls the ADS-B totals reported for today for a given station and posts them to twitter",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "node ."
   },
   "author": "SynapseMX",
   "dependencies": {
